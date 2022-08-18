@@ -1,0 +1,42 @@
+{
+  "name": "scheduling-system",
+  "version": "1.0.0",
+  "description": "Treino de REST/SOAP em NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
+  "keywords": [
+    "REST",
+    "SOAP",
+    "NODEJS",
+    "NodeJS",
+    "Node",
+    "Docker",
+    "Postgres",
+    "ElephantSQL",
+    "PostBird",
+    "Sequelize",
+    "JWT",
+    "Bearer Token",
+    "Express",
+    "Multer"
+  ],
+  "author": "Gustavo Letério",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^2.28.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1",
+    "sucrase": "^3.21.0"
+  }
+}
